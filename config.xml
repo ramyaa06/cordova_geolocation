@@ -1,0 +1,15 @@
+<widget id="com.example.locationapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Location App</name>
+    <description>A simple app to display the user's current location.</description>
+    <content src="index.html" />
+    <!-- Add permissions for geolocation -->
+    <preference name="android-permission" value="android.permission.ACCESS_FINE_LOCATION" />
+    <access origin="*" />
+    <platform name="android">
+        ...
+        <preference name="AndroidXEnabled" value="true" />
+        <preference name="Orientation" value="portrait" />
+        ...
+    </platform>
+    
+</widget>
